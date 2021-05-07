@@ -16,10 +16,6 @@ end
   city = City.create!(name: Faker::Address.city)
 end
 
-10.times do 
-  specialty = Specialty.create!(title: Faker::Job.field)
-end
-
 
 
 
